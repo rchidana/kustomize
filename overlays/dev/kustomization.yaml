@@ -3,6 +3,8 @@ kind: Kustomization
 
 resources:
 - ../../base
+- dev-ns.yml
+namespace: dev-ns
 
 patches:
 - path: deployment-dev.yaml
