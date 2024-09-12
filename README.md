@@ -27,4 +27,10 @@ kubectl describe svc
 
 ```
 
+# Task!!
+
+Modify this code to ensure that the deployments happen to specific namespaces: <br>
+overlays/dev --> Should get deployed to 'dev-ns' namespace <br>
+overlays/prod --> Should get deployed to 'prod-ns' namespace <br>
+
 
