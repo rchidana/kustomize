@@ -3,6 +3,8 @@ kind: Kustomization
 
 resources:
 - ../../base
+- prod-ns.yml
+namespace: prod-ns
 
 patches:
 - path: deployment-prod.yaml
