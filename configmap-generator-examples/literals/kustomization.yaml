@@ -1,0 +1,5 @@
+configMapGenerator:
+- name: example-configmap-2
+  literals:
+  - FOO=Bar
+  - DB_HOST=db1.training.com
